@@ -15,12 +15,12 @@ const Header = () => {
     <header className="header-container" id="home">
       <div className="top-bar">
         <div className="top-links">
-          <a href="#enquiry">Enquiry Now</a>
-          <span>|</span> 
+          <a href="#enquiry" className="mobView">Enquiry Now</a>
+          <span className="mobView">|</span> 
           <a href="#domestic">Domestic</a>
           <span>|</span>
-          <a href="#cars">Cab</a>
-          <span>|</span>
+          <a href="#cars" className="mobView">Cab</a>
+          <span className="mobView">|</span>
           <a href="#pilgrim">Pilgrim</a>
           <span>|</span>
           <span><FontAwesomeIcon icon={faPhone} className="icon" /> +919011996996</span>
