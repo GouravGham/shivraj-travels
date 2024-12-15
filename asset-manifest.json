@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/shivraj-travels/static/css/main.9bb28a8c.css",
+    "main.js": "/shivraj-travels/static/js/main.80bb108a.js",
+    "static/media/outstation.jpg": "/shivraj-travels/static/media/outstation.dac63678d1aa18743dd7.jpg",
+    "static/media/khandoba-jejuri.jpg": "/shivraj-travels/static/media/khandoba-jejuri.6995a1a111e115de0bde.jpg",
+    "static/media/mahabaleshwar.jpg": "/shivraj-travels/static/media/mahabaleshwar.c470be2e0f5e6ad06aed.jpg",
+    "static/media/car-bnr.jpg": "/shivraj-travels/static/media/car-bnr.fe2217cca64022775a70.jpg",
+    "static/media/vitthal-rukhmini-pandharpur.jpg": "/shivraj-travels/static/media/vitthal-rukhmini-pandharpur.03ae6732c5c36a729f1d.jpg",
+    "static/media/swami-samarth-akkalkot.jpg": "/shivraj-travels/static/media/swami-samarth-akkalkot.bf16b92e5c582c76a22b.jpg",
+    "static/media/saibaba-shirdi.jpg": "/shivraj-travels/static/media/saibaba-shirdi.74567fda22a1c8958408.jpg",
+    "static/media/ashtvinayak.jpeg": "/shivraj-travels/static/media/ashtvinayak.c1655651114fc27d5dd9.jpeg",
+    "static/media/toyota-innova.png": "/shivraj-travels/static/media/toyota-innova.8bd1c232de630bb13410.png",
+    "static/media/solapur.jpg": "/shivraj-travels/static/media/solapur.50dda80c63ab140ededc.jpg",
+    "static/media/tulja-bhavani-tuljapur.jpg": "/shivraj-travels/static/media/tulja-bhavani-tuljapur.fa8cc00ddf7be55dc20f.jpg",
+    "static/media/lord-dattatreya-gangapur.jpg": "/shivraj-travels/static/media/lord-dattatreya-gangapur.336b71fcbb0905bef415.jpg",
+    "static/media/car-rental.jpg": "/shivraj-travels/static/media/car-rental.b51eb2214b001e92c40c.jpg",
+    "static/media/ganapatipule.jpg": "/shivraj-travels/static/media/ganapatipule.eec6f853c620df058eb0.jpg",
+    "static/media/swift-dezire.webp": "/shivraj-travels/static/media/swift-dezire.213c7a2f6f6ee1f809da.webp",
+    "static/media/lonavala.avif": "/shivraj-travels/static/media/lonavala.ab0786df5147ffa2f651.avif",
+    "static/media/maruti-swift.webp": "/shivraj-travels/static/media/maruti-swift.9f1b8ee0f7e4c6451767.webp",
+    "static/media/rental-service.webp": "/shivraj-travels/static/media/rental-service.208fca352366d28e08ef.webp",
+    "static/media/Ertiga.webp": "/shivraj-travels/static/media/Ertiga.a9a8aeb999ee2496a480.webp",
+    "static/media/cruiser.webp": "/shivraj-travels/static/media/cruiser.672184811350fd292a80.webp",
+    "static/media/matheran.jpg": "/shivraj-travels/static/media/matheran.b534196d19ac7587b03a.jpg",
+    "static/media/tata-indica.avif": "/shivraj-travels/static/media/tata-indica.b10542ac6723078da608.avif",
+    "index.html": "/shivraj-travels/index.html",
+    "main.9bb28a8c.css.map": "/shivraj-travels/static/css/main.9bb28a8c.css.map",
+    "main.80bb108a.js.map": "/shivraj-travels/static/js/main.80bb108a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9bb28a8c.css",
+    "static/js/main.80bb108a.js"
+  ]
+}
