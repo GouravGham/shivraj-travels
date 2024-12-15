@@ -1,0 +1,63 @@
+.our-services {
+  padding: 1.25rem;
+  background-color: var(--text-dark);
+  color: var(--background-color);
+  text-align: center;
+}
+
+.section-title {
+  margin: 0;
+  font-size: 2.125rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.our-services h2 {
+  margin-top: 0;
+  font-size: 1.875rem;
+  line-height: 0.1;
+  letter-spacing: 0.625rem;
+}
+
+.services-intro {
+  font-size: 1.0625rem;
+  line-height: 1.6;
+  margin-bottom: 1.875rem;
+  text-align: justify;
+  padding: 0 3.75rem;
+}
+
+.service-categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
+  gap: 1.25rem;
+}
+
+.category {
+  text-align: center;
+}
+
+.category h3 {
+  font-size: 1.125rem;
+  margin: 0;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.category h4 {
+  margin-top: 0;
+  font-size: 0.9375rem;
+  line-height: 0.1;
+  letter-spacing: 0.3125rem;
+}
+
+.category ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.category li {
+  font-size: 0.75rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}

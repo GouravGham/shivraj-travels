@@ -1,0 +1,24 @@
+.customize {
+  background-color: var(--text-gray);
+  padding: 1.25rem;
+  text-align: center;
+}
+
+.customize p {
+  font-size: 1.1875rem;
+  font-weight: 600;
+}
+
+.customize-button {
+  background-color: var(--highlight-red);
+  border: none;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.75rem;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.customize-button:hover {
+  background-color: var(--secondary-red);
+}

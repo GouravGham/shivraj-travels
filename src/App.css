@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  color: inherit;
+}
+:root {
+  --primary-red: #d32f2f;
+  --secondary-red: #b71c1c;
+  --highlight-red: #ff5252;
+  --text-light: #ecf0f1;
+  --text-dark: #333333;
+  --text-gray: rgb(223, 223, 223);
+  --background-dark: #2b2b2b;
+  --background-color: #ffffff;
+  --border-light: #ddd;
+  --white-color: #fff;
+  --disabled-bg: #ccc;
+  --disabled-text: #666;
+}
