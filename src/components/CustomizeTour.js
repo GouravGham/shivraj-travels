@@ -1,23 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './CustomizeTour.css'; 
-import ModalForm from './ModalForm';
 
-const CustomizeTour = () => { 
-  const [showModal, setShowModal] = useState(false); 
-  const openModal = () => {
-    setShowModal(true);
-  };
-  const closeModal = () => {
-    setShowModal(false);
-  };
+const CustomizeTour = () => {
 
   return (
       <div className='customize'>
          <p>
          WE ARE HAPPY TO DELIVER YOUR CUSTOM QUOTE!
          </p>
-         <button className='customize-button' onClick={openModal}>Start Customization Now</button>
-         {showModal && <ModalForm openModal={openModal} closeModal={closeModal}/>}
+         <button className='customize-button' onClick={() => window.open("https://wa.me/919011996996", "_blank", "noopener,noreferrer")}>Start Customization Now</button>
       </div>
   );
 };

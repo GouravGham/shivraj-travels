@@ -45,7 +45,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.25rem;
-  padding: 1.25rem;
+  padding: 3rem;
   justify-items: center;
 }
 

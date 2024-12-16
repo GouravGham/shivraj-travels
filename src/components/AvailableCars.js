@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import ErtigaImage from "../images/Ertiga.webp";
 import ChevroletTaveraImage from "../images/chevrolet-tavera.jpg";
 import SwiftDezireImage from "../images/swift-dezire.webp";
@@ -8,16 +8,8 @@ import CruiserImage from "../images/cruiser.webp";
 import MarutiSwiftImage from "../images/maruti-swift.webp";
 import TataIndicaImage from "../images/tata-indica.avif";
 import './AvailableCars.css';
-import ModalForm from './ModalForm';
 
 const AvailableCars = () => {
-  const [showModal, setShowModal] = useState(false); 
-  const openModal = () => {
-    setShowModal(true);
-  };
-  const closeModal = () => {
-    setShowModal(false);
-  };
 
   const packages = [
     { id: 1, image: ErtigaImage, title: 'Ertiga' },
@@ -37,7 +29,7 @@ const AvailableCars = () => {
       </div>
       <div className="available-container" >
         {packages.map((pkg) => (
-          <div className="available-card" key={pkg.id} onClick={openModal}>
+          <div className="available-card" key={pkg.id} onClick={() => window.open("https://wa.me/919011996996", "_blank", "noopener,noreferrer")}>
             <img
               src={pkg.image}
               alt={pkg.title}
@@ -47,7 +39,6 @@ const AvailableCars = () => {
           </div>
         ))}
       </div>
-      {showModal && <ModalForm openModal={openModal} closeModal={closeModal}/>}
     </div>
   );
 };

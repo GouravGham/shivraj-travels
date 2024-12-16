@@ -1,19 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import BanerImage from "../images/car-rental.jpg";
 import Solapur from "../images/solapur.jpg";
 import Outstation from "../images/outstation.jpg";
 import RentalService from "../images/rental-service.webp"
 import './BookTour.css'; 
-import ModalForm from './ModalForm';
 
 const BookTour = () => {
-  const [showModal, setShowModal] = useState(false); 
-  const openModal = () => {
-    setShowModal(true);
-  };
-  const closeModal = () => {
-    setShowModal(false);
-  };
 
     const bookings = [
         {
@@ -53,11 +45,10 @@ const BookTour = () => {
           <img src={booking.image} alt={booking.heading} className="booking-image" />
           <h2 className="booking-heading">{booking.heading}</h2>
           <p className="booking-paragraph">{booking.paragraph}</p>
-          <button className='booking-button' onClick={openModal}>BOOK NOW</button>
+          <button className='booking-button' onClick={() => window.open("https://wa.me/919011996996", "_blank", "noopener,noreferrer")}>BOOK NOW</button>
         </div>
       ))}
       </div>
-      {showModal && <ModalForm openModal={openModal} closeModal={closeModal}/>}
     </div>
   );
 };

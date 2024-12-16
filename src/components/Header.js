@@ -23,7 +23,7 @@ const Header = () => {
           <span className="mobView">|</span>
           <a href="#pilgrim">Pilgrim</a>
           <span>|</span>
-          <span><FontAwesomeIcon icon={faPhone} className="icon" /> +919011996996</span>
+          <span><FontAwesomeIcon icon={faPhone} className="icon" /> +919856996996</span>
         </div>
         <div className="top-contact">
           <a href="https://www.facebook.com/share/12E13tzVJAc/?mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer">
@@ -34,7 +34,7 @@ const Header = () => {
             <FontAwesomeIcon icon={faInstagram} className="icon" />
           </a>
           <span>|</span>
-          <span><FontAwesomeIcon icon={faPhone} className="icon" /> +919856996996</span>
+          <span><FontAwesomeIcon icon={faPhone} className="icon" /> +919011996996</span>
         </div>
       </div>
       <div className="heads">

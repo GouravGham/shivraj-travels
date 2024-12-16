@@ -66,6 +66,8 @@
   .available-image {
     display: block;
     width: fit-content;
+    max-width: 100%;
     margin: 0 auto;
+    height: 25vw;
   }
 }
