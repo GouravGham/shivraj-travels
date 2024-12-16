@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shivraj-travels/static/css/main.b8af49b6.css",
-    "main.js": "/shivraj-travels/static/js/main.c3d72f8b.js",
+    "main.css": "/shivraj-travels/static/css/main.b0a164a2.css",
+    "main.js": "/shivraj-travels/static/js/main.ec523b10.js",
     "static/media/outstation.jpg": "/shivraj-travels/static/media/outstation.dac63678d1aa18743dd7.jpg",
     "static/media/khandoba-jejuri.jpg": "/shivraj-travels/static/media/khandoba-jejuri.6995a1a111e115de0bde.jpg",
     "static/media/mahabaleshwar.jpg": "/shivraj-travels/static/media/mahabaleshwar.c470be2e0f5e6ad06aed.jpg",
@@ -25,11 +25,11 @@
     "static/media/matheran.jpg": "/shivraj-travels/static/media/matheran.b534196d19ac7587b03a.jpg",
     "static/media/tata-indica.avif": "/shivraj-travels/static/media/tata-indica.b10542ac6723078da608.avif",
     "index.html": "/shivraj-travels/index.html",
-    "main.b8af49b6.css.map": "/shivraj-travels/static/css/main.b8af49b6.css.map",
-    "main.c3d72f8b.js.map": "/shivraj-travels/static/js/main.c3d72f8b.js.map"
+    "main.b0a164a2.css.map": "/shivraj-travels/static/css/main.b0a164a2.css.map",
+    "main.ec523b10.js.map": "/shivraj-travels/static/js/main.ec523b10.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8af49b6.css",
-    "static/js/main.c3d72f8b.js"
+    "static/css/main.b0a164a2.css",
+    "static/js/main.ec523b10.js"
   ]
 }
